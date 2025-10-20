@@ -1,0 +1,17 @@
+# Rust
+target/
+**/*.rs.bk
+
+# Go
+bin/
+vendor/
+*.exe
+*.out
+*.test
+
+# Common
+.DS_Store
+.idea/
+.vscode/
+*.log
+*.tmp
