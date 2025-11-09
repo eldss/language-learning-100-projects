@@ -1,6 +1,6 @@
 # 100 Projects to Learn a Language
 
-This repository tracks my journey through the “100 Days of Rust Development” course while broadening the scope to include other languages when a project calls for it. The original curriculum is Rust-first: build one project per day, progressing from fundamentals to full-stack apps. Here, I'm adapting that pacing and project lineup to deepen my Rust skills and explore adjacent technologies.
+This repository tracks my journey through the “100 Days of Rust Development” course while broadening the scope to include other languages when a project calls for it. The original curriculum is Rust-first: build one project per day, progressing from fundamentals to full-stack apps. I don't always get to one a day, I may add more as time goes on. Here, I'm adapting that pacing and project lineup to deepen my Rust skills and explore adjacent technologies.
 
 Link to course: <https://www.udemy.com/course/rust-programming-bootcamp>
 
@@ -18,7 +18,7 @@ I’ll pair the official project prompts with experiments in other languages as 
 
 ## Repository Layout
 
-- `DD-project-name/` — one directory per day, prefixed with the calendar day (`01-hello-world`, `02-…`, etc.).
+- `project-name/` — one directory per project, named after its focus (`hello-world`, `temp-converter`, etc.) so I can re-order or regroup them freely.
 - Language-specific tooling lives inside each project folder (e.g., a `Cargo.toml` for Rust, `package.json` for TypeScript, `pyproject.toml` for Python).
 - Most projects will include a short write-up or notes on tradeoffs, gotchas, or cross-language comparisons.
 
@@ -32,7 +32,7 @@ I’ll pair the official project prompts with experiments in other languages as 
 ### Running a Rust Project
 
 ```bash
-cargo run --manifest-path 01-hello-world/hello-rust/Cargo.toml
+cargo run --manifest-path hello-world/hello-rust/Cargo.toml
 ```
 
 Use `cargo test` in the same folder when tests are available.
